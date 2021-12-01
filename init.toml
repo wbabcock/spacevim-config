@@ -39,9 +39,7 @@
     default_indent = 4
     expand_tab = true
 
-    project_rooter_patters = [".git"]
-    project_rooter_outermost = false
-    project_auto_root = false
+    project_rooter_patterns = [".git/", "!node_packages/"]
 
     filetree_direction = "left"
 
